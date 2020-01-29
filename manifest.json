@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "9gag sidebar news hider",
+  "version": "1.0.0",
+
+  "default_locale": "en",
+  "description": "Just a chrome extension that hides the sidebar (with the articles) on the https://9gag.com/",
+  "browser_action": {
+    "default_title": "9gag hider"
+  },
+
+  "author": "Norbert Kruk",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "optional_permissions": ["https://*.9gag.com/*"],
+  "permissions": ["https://*.9gag.com/*"]
+}
