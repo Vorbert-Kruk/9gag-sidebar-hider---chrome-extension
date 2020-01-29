@@ -1,7 +1,7 @@
 {
   "json.schemas": [
     {
-      "fileMatch": ["/manifest.json"],
+      "fileMatch": ["/manifest.json", "/*.js"],
       "url": "http://json.schemastore.org/chrome-manifest"
     }
   ]
