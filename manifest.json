@@ -16,6 +16,5 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "optional_permissions": ["tabs", "https://*.9gag.com/*"],
-  "permissions": ["tabs", "https://*.9gag.com/*"]
+  "permissions": ["tabs", "background", "https://*.9gag.com/*"]
 }
